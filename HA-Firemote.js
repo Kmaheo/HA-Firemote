@@ -960,6 +960,17 @@ class FiremoteCard extends LitElement {
             box-shadow: 0 0 calc(var(--sz) * 0.857rem) calc(var(--sz) * 0.142rem) rgb(255 255 255 / 20%);
           }
 
+          .saltoButton {
+            color: #c6c6c6;
+            font-size: calc(var(--sz) * 0.9285rem);
+            background: linear-gradient(90deg, rgba(44,8,60,1) 0%, rgba(23,4,51,1) 100%
+          }
+          .saltoButton:active, .saltoButton.appActive {
+            color: #fff;
+            background: linear-gradient(80deg, #73109E 0%, #2F0B62 100%);
+            box-shadow: 0 0 calc(var(--sz) * 0.857rem) calc(var(--sz) * 0.142rem) rgb(2
+          }
+
           .shopHQButton {
             color: yellow;
             background: #000;
@@ -1031,6 +1042,18 @@ class FiremoteCard extends LitElement {
             background: #ff004f;
             box-shadow: 0 0 calc(var(--sz) * 0.857rem) calc(var(--sz) * 0.142rem) rgb(255 255 255 / 20%);
             text-shadow: 0 0 calc(var(--sz) * 0.2857rem) black;
+            filter: none;
+          }
+
+          .tivimateButton {
+            font-size: calc(var(--sz) * 0.7857rem);
+            color: #fff;
+            font-weight: bold;
+            background: #0667fc;
+            filter: grayscale(50%) brightness(80%);
+          }
+          .tivimateButton:active, .tivimateButton.appActive {
+            box-shadow: 0 0 calc(var(--sz) * 0.857rem) calc(var(--sz) * 0.142rem) rgb(2
             filter: none;
           }
 
