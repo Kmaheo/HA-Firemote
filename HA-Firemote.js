@@ -261,14 +261,14 @@ const fastappchoices = {
       "className": "threenowButton",
       "androidName": "com.mediaworks.android.tv" },
 
-  "tivimate": {
+   "tivimate": {
       "button": "Tivimate",
-      "friendlyName": "Tivimate",
+      "friendlyName": 'Tivimate',
       "appName": "ar.tvplayer.tv",
       "className": "tivimateButton",
-      "androidName": "ar.tvplayer.tv"},
+      "androidName": "ar.tvplayer.tv",
       "adbLaunchCommand": "adb shell am start -n ar.tvplayer.tv/.ui.MainActivity" },
-  
+
   "tvnz-plus": {
       "button": "tvnz+",
       "friendlyName": "TVNZ+ (NZ)",
