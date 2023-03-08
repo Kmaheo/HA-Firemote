@@ -208,7 +208,14 @@ const fastappchoices = {
       "className": "raiPlayButton",
       "androidName": "it.rainet.androidtv",
       "adbLaunchCommand": "adb shell am start -n it.rainet.androidtv/.ui.MainLeanbackActivity" },
-
+  
+  "salto": {
+      "button": "SALTO",
+      "friendlyName": "Salto",
+      "appName": "fr.salto.app.firetv",
+      "className": "saltoButton",
+      "androidName": "fr.salto.app.firetv" },
+  
   "shophq": {
       "button": "ShopHQ",
       "friendlyName": "ShopHQ",
@@ -254,6 +261,14 @@ const fastappchoices = {
       "className": "threenowButton",
       "androidName": "com.mediaworks.android.tv" },
 
+  "tivimate": {
+      "button": "Tivimate",
+      "friendlyName": "Tivimate",
+      "appName": "ar.tvplayer.tv",
+      "className": "tivimateButton",
+      "androidName": "ar.tvplayer.tv"},
+      "adbLaunchCommand": "adb shell am start -n ar.tvplayer.tv/.ui.MainActivity" },
+  
   "tvnz-plus": {
       "button": "tvnz+",
       "friendlyName": "TVNZ+ (NZ)",
